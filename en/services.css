@@ -276,6 +276,7 @@ h3 {
     .header {
         margin: 10px;
         position: relative;
+        top: 0px;
     }
 
     .header a {
