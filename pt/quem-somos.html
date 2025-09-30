@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./quem-somos.css">
+    <title>quem-somos</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9S0ME29NW8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9S0ME29NW8');
+</script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../assets/img/Consulting Firm Logo (1).png" alt="logo-header">
+        <a href="../pt/index.html">Página Inicial</a>
+        <a href="../pt/nossos-serviços.html">Nossos Serviços</a>
+        <a href="../pt/quem-somos.html">Quem Somos</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="sobre-nos">
+            <h1>Quem Somos</h1>
+            <h3>
+                Sales, Marketing & TI Solutions:
+            </h3>
+            <p>
+                Somos uma empresa localizada na Estrada da Itapecerica, 2692, São Paulo, Brasil,
+dedicada a impulsionar o crescimento e a visibilidade de pequenas empresas e
+startups. Estamos entusiasmados por fazer parte desta comunidade e
+comprometidos em ser uma opção acessível para todos aqueles que buscam dar
+o próximo passo no mundo digital.
+
+Sabemos a importância de ter uma presença online sem um grande investimento,
+por isso, oferecemos soluções de marketing, vendas e tecnologia com preços justos e competitivos,
+adequadas a diferentes orçamentos.
+
+Nosso objetivo é conquistar sua confiança desde o primeiro contato, fornecendo estratégias eficazes,
+ferramentas modernas e uma abordagem amigável que faça você se sentir apoiado em todas as etapas do seu projeto.
+Convidamos você a nos conhecer e descobrir como podemos ajudar você a se destacar e expandir seus negócios!
+            </p>
+            <button class="main-button" onclick="showForm()">Contato por EMAIL</button>
+            
+        </div>
+    </div>
+    <<div class="div-right">
+        <!-- Convertimos el H2 en un enlace -->
+        <a href="https://www.google.com/maps?q=C. Estr. de Itapecerica, 2692 - Vila Maracana" 
+            target="_blank" 
+            style="text-decoration: none; color: #fff;">
+            <h2 class="title">Ir a Google Maps</h2>
+        </a>
+        <div>
+            <iframe class="maps" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.677462060964!2d-46.760644325709706!3d-23.651719264915954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53c337e1f51d%3A0xb14a696eda54ce12!2sEstr.%20de%20Itapecerica%2C%202692%20-%20Vila%20Maracana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005849-440!5e0!3m2!1ses!2sbr!4v1759173543689!5m2!1ses!2sbr" 
+                width="300" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+        <a href="https://wa.link/33rmul" class="whatsapp"><img class="logo-whatsapp"
+                src="../assets/img/icon whatsapp .png" /></a>
+    </div>
+    <div class="video">
+        <video src="../assets/video/Sales, Marketing & TI Solutions.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/GPneUbYefLA"
+        method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Digite seu nome" name="name" type="text">
+        <input placeholder="Digite seu telefone" name="telefono" type="tel">
+        <textarea placeholder="Como podemos ajudar?" name="suProblema"></textarea>
+        <button type="submit">Enviar EMAIL</button>
+    </form>
+    <div onclick="hideMasck()" class="mascara-form"></div>
+
+</body>
+<script src="../assets/script.js"></script>
+</html>

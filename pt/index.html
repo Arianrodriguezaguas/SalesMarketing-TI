@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sales, Marketing & TI Solution - Trabalhamos focados em
+aumentar a visibilidade do seu negócio no mundo digital.">
+    <meta name="keywords" content="Vendas, Marketing, Consultoria, Empreendedorismo, Publicidade, TI.">
+    <meta name="author" content="Sales, Marketing & TI Solutions">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Sales, Marketing & TI Solutions</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9S0ME29NW8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9S0ME29NW8');
+</script>
+</head>
+
+
+<body>
+    <div class="header">
+    <img src="../assets/img/Consulting Firm Logo (1).png" alt="logo-header" class="logo-header">
+    <a href="../pt/index.html">Página Inicial</a>
+    <a href="../pt/nossos-serviços.html">Nossos Serviços</a>
+    <a href="../pt/quem-somos.html">Quem Somos</a>
+
+    <!-- Selector -->
+    <div class="language-selector">
+      <select id="lang" onchange="changeLanguage(this.value)">
+        <option value="/es/index.html">ES</option>
+        <option value="/pt/index.html" selected>PT</option>
+        <option value="/en/index.html">EN</option>
+      </select>
+    </div>
+</div>
+
+<script>
+  function changeLanguage(langUrl) {
+    window.location.href = langUrl;
+  }
+</script>
+    <div class="caixa-mae">
+        <div class="sobre-nos">
+           
+           
+            <p class="p2">
+    A Sales, Marketing & TI Solutions é uma consultoria dedicada a impulsionar a presença digital
+    e comercial de pequenos negócios e empreendedores. Trabalhamos com paixão e compromisso
+    para oferecer soluções integradas em vendas, marketing e tecnologia, utilizando ferramentas
+    inovadoras e estratégias personalizadas. Na Sales, Marketing & TI Solutions, o crescimento
+    do seu negócio é a nossa missão.
+</p>
+            <button class="main-button" onclick="showForm()">Contato por EMAIL</button>
+            <footer class="footer">
+                <p>Desenvolvido por: <a href="https://www.linkedin.com/in/arian-rodriguez-aguas" target="_blank">Arian Rodgez Aguas</a></p>
+            </footer>
+        </div>
+        
+    </div>
+    <div class="div-right">
+       
+        <a href="https://wa.link/33rmul" class="whatsapp"><img class="logo-whatsapp"
+                src="../assets/img/icon whatsapp .png" /></a>
+                
+    </div>
+    <div class="video">
+        <video src="../assets/video/Sales, Marketing & TI Solutions.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/GPneUbYefLA"
+        method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Digite seu nome" name="name" type="text">
+        <input placeholder="Digite seu telefone" name="telefono" type="tel">
+        <textarea placeholder="Como podemos ajudar?" name="suProblema"></textarea>
+        <button type="submit">Enviar EMAIL</button>
+    </form>
+    <div onclick="hideMasck()" class="mascara-form"></div>
+
+</body>
+
+<script src="../assets/script.js"></script>
+</html>
